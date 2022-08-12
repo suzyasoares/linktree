@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    color: white;
+    background-color:  rgb(54, 77, 204);
+    background: linear-gradient(194deg, rgba(2,0,36,1) 0%, rgba(39,59,172,1) 100%);
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.avatar {
+    width: 80px;
+    border-radius: 50px;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+h2 {
+    font-size: 16px;
+    
+}
+.profile {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social {
+    display:flex;
+    justify-content: space-around;
+    margin: 20px 20px 0 0;
+    list-style: none;
+    
+}
+.social img {
+    width: 33px;
+}
+.Links-list {
+    list-style: none;
+}
+
+.Links-list li {
+    margin: 10px 20px;   
+}
+.Links-list li a {
+    display: block;
+    background: white;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration: none;
+    color:  rgb(54, 77, 204);
+    font-weight: bold;
+}
+.Links-list li a span{
+    color: gray;
+    display: block;
+    margin-top: 10px;
+}
+
+.Links-list second{
+    color: black;
+}
